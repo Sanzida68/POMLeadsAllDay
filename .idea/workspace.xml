@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6287434-bcf3-4972-9e59-53f0e291e132" name="Changes" comment="LeadsAllDay">
+      <change afterPath="$PROJECT_DIR$/test/pages/CrmContactPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pages/CrmTaskPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_crmtask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/test/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,29 +49,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_set_password.TestSetPassword.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_signin.TestSignin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_signup.TestSignup.test_signup.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_signup.TestSignup.test_with_mandatory_field.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_logout.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_set_password.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SignUpPage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zDrop-QA-INT-1/PycharmProjects/POMLeadsAllDay&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_crmtask.TestCrmTask.executor": "Run",
+    "Python tests.Python tests for test_crmtask.TestCrmTask.test_task.executor": "Run",
+    "Python tests.Python tests for test_set_password.TestSetPassword.executor": "Run",
+    "Python tests.Python tests for test_signin.TestSignin.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_signup.executor": "Run",
+    "Python tests.Python tests for test_signup.TestSignup.test_with_mandatory_field.executor": "Run",
+    "Python tests.Python tests in test_crmtask.py.executor": "Run",
+    "Python tests.Python tests in test_logout.py.executor": "Run",
+    "Python tests.Python tests in test_set_password.py.executor": "Run",
+    "Python.CrmTaskPage.executor": "Run",
+    "Python.SignUpPage.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/zDrop-QA-INT-1/PycharmProjects/POMLeadsAllDay",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests in test_set_password.py">
-    <configuration name="Python tests for test_set_password.TestSetPassword" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_crmtask.TestCrmTask">
+    <configuration name="CrmTaskPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="POMLeadsAllDay1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/pages/CrmTaskPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_crmtask.TestCrmTask" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="POMLeadsAllDay1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,11 +108,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_set_password.TestSetPassword&quot;" />
+      <option name="_new_target" value="&quot;test_crmtask.TestCrmTask&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_signup.TestSignup.test_signup" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_crmtask.TestCrmTask.test_task" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="POMLeadsAllDay1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,11 +123,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_signup.TestSignup.test_signup&quot;" />
+      <option name="_new_target" value="&quot;test_crmtask.TestCrmTask.test_task&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_signup.TestSignup.test_with_mandatory_field" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_crmtask.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="POMLeadsAllDay1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,22 +138,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_signup.TestSignup.test_with_mandatory_field&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_logout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="POMLeadsAllDay1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_logout.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_crmtask.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -143,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_crmtask.TestCrmTask" />
+        <item itemvalue="Python tests.Python tests for test_crmtask.TestCrmTask.test_task" />
+        <item itemvalue="Python tests.Python tests in test_crmtask.py" />
+        <item itemvalue="Python.CrmTaskPage" />
         <item itemvalue="Python tests.Python tests in test_set_password.py" />
-        <item itemvalue="Python tests.Python tests for test_set_password.TestSetPassword" />
-        <item itemvalue="Python tests.Python tests in test_logout.py" />
-        <item itemvalue="Python tests.Python tests for test_signup.TestSignup.test_with_mandatory_field" />
-        <item itemvalue="Python tests.Python tests for test_signup.TestSignup.test_signup" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704771744515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LeadsAllDay">
+      <option name="closed" value="true" />
+      <created>1704779448644</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704779448644</updated>
+    </task>
+    <task id="LOCAL-00011" summary="LeadsAllDay">
+      <option name="closed" value="true" />
+      <created>1704779644420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704779644420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

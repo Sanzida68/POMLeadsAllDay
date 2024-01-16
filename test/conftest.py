@@ -19,7 +19,7 @@ print(config.sections())
 def driver(request):
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     driver.implicitly_wait(10)
-    #driver.maximize_window()
+    driver.maximize_window()
     request.cls.driver = driver
     yield driver
     driver.close()
@@ -64,3 +64,10 @@ class TestSetPassword:
 
 set_pass = TestSetPassword()
 
+
+class TestDataCreateTask:
+    title = config.get('task', 'title')
+    description = config.get('task', 'description')
+
+
+set_task = TestDataCreateTask()
